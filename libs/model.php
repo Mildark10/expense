@@ -1,5 +1,7 @@
 <?php
 //solo se va conectar a la base de datos y ejecutar consultas
+
+include_once 'libs/imodel.php';
 class Model{
 
     public	$db; //se crea la base de datos

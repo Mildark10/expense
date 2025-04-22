@@ -1,9 +1,9 @@
 <?php
 
-//controilador base
 class Controller{
-    public $view; //se crea la vista
-    public $model; //se crea el modelo
+
+    public $view;
+    public $model;
 
     function __construct(){
         $this->view = new View();
